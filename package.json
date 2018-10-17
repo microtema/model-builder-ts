@@ -1,6 +1,6 @@
 {
   "name": "model-builder-ts",
-  "version": "1.0.0",
+  "version": "1.0.4",
   "description": "NodeJs Model builder for testing",
   "main": "index.js",
   "types": "index.d.ts",
