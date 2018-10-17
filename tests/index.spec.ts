@@ -1,8 +1,8 @@
-import * as sut from '../src/index';
+import * as sut from '../src/facade';
 
 describe('test index', () => {
 
-    it('', () => {
+    it('test', () => {
         expect('foo').toEqual(sut.getPlural('foo'));
     });
 });
