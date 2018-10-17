@@ -1,0 +1,57 @@
+{
+  "name": "model-builder",
+  "version": "1.0.0",
+  "description": "MOdel builder for testing",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "lint": "tslint  --project tsconfig.json -t codeFrame 'src/**/*.ts' 'tests/**/*.ts' --fix",
+    "test": "jest --coverage | coveralls",
+    "clean": "rm -rf dist || true && rm -rf coverage || true && rm -rf .scannerwork || true && rm -rf test-reports || true"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/microtema/model-builder-ts.git"
+  },
+  "bugs": {
+    "url": "https://github.com/microtema/model-builder/issues"
+  },
+  "keywords": [
+    "TS",
+    "TypoScript",
+    "TDD",
+    "UnitTest",
+    "Test"
+  ],
+  "url": "https://github.com/microtema/model-builder#readme",
+  "author": "Mario tema <7fate@web.de>",
+  "license": "MIT",
+  "dependencies": {
+    "tslint": "^5.11.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^23.3.5",
+    "jest": "^23.6.0",
+    "ts-jest": "^23.10.4",
+    "typescript": "^3.1.3",
+    "jest-sonar-reporter": "^1.3.0",
+    "coveralls": "^3.0.2",
+    "lint-staged": "^7.2.2",
+    "tslint-clean-code": "^0.2.7"
+  },
+  "jestSonar": {
+    "reportPath": "test-reports",
+    "reportFile": "junit.xml",
+    "indent": 4
+  },
+  "gitHooks": {
+    "pre-commit": "lint-staged"
+  },
+  "lint-staged": {
+    "**/*.ts": [
+      "lint",
+      "git add"
+    ]
+  }
+}
