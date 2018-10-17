@@ -1,7 +1,7 @@
 {
-  "name": "model-builder",
+  "name": "model-builder-ts",
   "version": "1.0.0",
-  "description": "MOdel builder for testing",
+  "description": "NodeJs Model builder for testing",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
