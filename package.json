@@ -1,6 +1,6 @@
 {
   "name": "model-builder",
-  "version": "1.0.1",
+  "version": "1.0.5",
   "description": "Reduce boiler plate on testing",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -25,7 +25,7 @@
     "Test",
     "Unit"
   ],
-  "author": "Mario Tema <7fate@web.de>",
+  "author": "microtema <7fate@web.de>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/microtema/model-builder-ts/issues"
