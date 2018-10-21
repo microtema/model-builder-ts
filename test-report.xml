@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testExecutions version="1">
-  <file path="/Users/mtema/Documents/DEVELOPER/PROJECT/NPM/model-builder/tests/index.spec.ts">
-    <testCase name="test index " duration="4"/>
-  </file>
-</testExecutions>

@@ -1,36 +1,12 @@
 {
-  "defaultSeverity": "warning",
   "extends": [
     "tslint:recommended",
-    "tslint-clean-code"
+    "tslint-config-prettier"
   ],
-  "linterOptions": {
-    "exclude": [
-      "node_modules/**"
-    ]
-  },
   "rules": {
-    "quotemark": [
+    "interface-name": [
       true,
-      "single"
-    ],
-    "indent": [
-      true,
-      "spaces",
-      2
-    ],
-    "interface-name": false,
-    "ordered-imports": false,
-    "object-literal-sort-keys": false,
-    "no-consecutive-blank-lines": false,
-    "newspaper-order": true,
-    "max-line-length": [
-      true,
-      200
-    ],
-    "max-func-args": [
-      true,
-      3
+      "never-prefix"
     ]
   }
 }
