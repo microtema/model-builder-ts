@@ -1,2 +1,5 @@
-node_modules
-lib/tests/
+src
+tsconfig.json
+tslint.json
+.prettierrc
+jestconfig.json
