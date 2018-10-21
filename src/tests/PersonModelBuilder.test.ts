@@ -1,4 +1,4 @@
-import {ModelBuilder} from '../index';
+import { ModelBuilder } from '../index';
 
 interface Person {
   name: string;
