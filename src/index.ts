@@ -1,4 +1,4 @@
-class ModelBuilder<T> {
+export class ModelBuilder<T> {
   public min(): T {
     return {} as T;
   }
@@ -33,5 +33,3 @@ class ModelBuilder<T> {
     return list;
   }
 }
-
-export default ModelBuilder;
