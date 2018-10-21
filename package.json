@@ -1,5 +1,5 @@
 {
-  "name": "model-builder",
+  "name": "model-builder-ts",
   "version": "1.0.5",
   "description": "Reduce boiler plate on testing",
   "main": "lib/index.js",
